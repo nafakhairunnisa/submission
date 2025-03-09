@@ -1,4 +1,4 @@
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
+pandas==2.2.2
+matplotlib==3.10.1
+seaborn==0.13.2
+streamlit==1.43.1
