@@ -39,6 +39,6 @@ cd ...\submission\dashboard
 streamlit run dashboard.py
 ```
 
-### **Run steamlit app**
+### **Access to streamlit app**
 You can also access the dashboard by clicking [here](https://25bike-sharing.streamlit.app/).
 
