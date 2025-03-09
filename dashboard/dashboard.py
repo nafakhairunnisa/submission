@@ -43,7 +43,7 @@ min_date_hour = hour_df["dteday"].min()
 max_date_hour = hour_df["dteday"].max()
 
 with st.sidebar:
-    st.image("tasha-kostyuk-_IKNpNUnKhg-unsplash.png")
+    st.image("dashboard/tasha-kostyuk-_IKNpNUnKhg-unsplash.png")
     st.markdown(
         'Illustration by [Tasha Kostyuk](https://unsplash.com/@tashakostyuk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) '
         'on [Unsplash](https://unsplash.com/illustrations/a-person-riding-a-bike-with-a-helmet-on-_IKNpNUnKhg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)',
