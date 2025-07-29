@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -34,13 +35,18 @@ def create_seasonal_rent_df(df):
         "season")[["casual", "registered", "cnt"]].sum().reset_index()
     return seasonal_rent_df
 
+import os
+import pandas as pd
 
-day_df = pd.read_csv("day_df_clean.csv")
-hour_df = pd.read_csv("hour_df_clean.csv")
+current_dir = os.path.dirname(__file__)
+day_csv_path = os.path.join(current_dir, "day_df_clean.csv")
+hour_csv_path = os.path.join(current_dir, "hour_df_clean.csv")
+
+day_df = pd.read_csv(day_csv_path)
+hour_df = pd.read_csv(hour_csv_path)
 
 day_df["dteday"] = pd.to_datetime(day_df["dteday"])
 hour_df["dteday"] = pd.to_datetime(hour_df["dteday"])
-
 
 min_date_day = day_df["dteday"].min()
 max_date_day = day_df["dteday"].max()
