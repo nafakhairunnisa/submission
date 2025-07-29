@@ -35,9 +35,6 @@ def create_seasonal_rent_df(df):
         "season")[["casual", "registered", "cnt"]].sum().reset_index()
     return seasonal_rent_df
 
-import os
-import pandas as pd
-
 current_dir = os.path.dirname(__file__)
 day_csv_path = os.path.join(current_dir, "day_df_clean.csv")
 hour_csv_path = os.path.join(current_dir, "hour_df_clean.csv")
