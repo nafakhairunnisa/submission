@@ -6,7 +6,7 @@ sns.set(style='dark')
 
 
 def create_sum_rent_weekday(df):
-    sum_rent_weekday = day_df.groupby("weekday")["cnt"].sum(
+    sum_rent_weekday = df.groupby("weekday")["cnt"].sum(
     ).sort_values(ascending=False).reset_index()
 
     return sum_rent_weekday
