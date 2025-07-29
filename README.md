@@ -3,8 +3,8 @@
 ## Dashboard Preview
 ![Screenshot 2025-03-09 183438](https://github.com/user-attachments/assets/bbacf178-52f7-4937-be13-b4bad2ea4ced)
 
-## Description
-An analysis project of bike sharing dataset. It's to discover and share insights from the dataset.
+## Project Overview
+This project is a data analysis dashboard built to uncover trends and insights from a public bike sharing dataset. The goal is to understand user behavior, seasonality, and factors influencing bike rentals using interactive visualizations.
 
 ## How to Access Dashboard
 
